@@ -10,7 +10,7 @@ def main(a):
         a = a + 1
 
     if a < 0 :
-        a = a + 2
+        a = a - 2
     print(a)       
     return a
 main(-5)
