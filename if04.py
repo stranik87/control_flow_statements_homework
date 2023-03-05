@@ -7,5 +7,8 @@ def main(a,b,c):
         c: integer
     returns:
         integer: the number of positive numbers in the given numbers
+
     """
-    return
+    x = (a+1)%2+(b+1)%2+(c+1)%2
+    return x
+print(main(1,2,4))
