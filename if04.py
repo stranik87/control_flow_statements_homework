@@ -9,13 +9,13 @@ def main(a,b,c):
         integer: the number of positive numbers in the given numbers
 
     """
-    if a:
+    if a > 0:
         a = (a+1)%2
 
-    if b:
+    if b > 0:
         b = (b+1)%2
 
-    if c:
+    if c > 0:
         c = (c+1)%2
     
     return a + b + c
