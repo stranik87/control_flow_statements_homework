@@ -13,4 +13,24 @@ def main(temp):
     Returns:
         string: the message to print
     """
-    return
+    if temp<0:
+        print("Замораживание")
+
+    if temp >= 1 and temp <= 10:
+        print("Очень холодно")
+
+    if temp >=11 and temp <= 20:
+        print("Холодный")
+
+    if temp >= 21 and temp <=30:
+        print("Нормальный")
+
+    if temp >= 31 and temp <= 40:
+        print("Горячий")
+
+    if temp >= 40:
+        print("Очень жарко")    
+    return temp
+
+
+print(main(50))
