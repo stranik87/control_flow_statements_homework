@@ -10,13 +10,21 @@ def main(a,b,c):
 
     """
     if a > 0:
-        a = (a+1)%2
+        a = 1
+
+    if a < 0:
+        a = 0    
 
     if b > 0:
-        b = (b+1)%2
+        b = 1
+
+    if b < 0:
+        b = 0    
 
     if c > 0:
-        c = (c+1)%2
+        c = 1
     
+    if c < 0:
+        c = 0
     return a + b + c
-print(main(1,2,4))
+print(main(-11,2,-4))
