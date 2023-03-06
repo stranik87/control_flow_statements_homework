@@ -13,7 +13,7 @@ def main(a):
 
     if a < 0 :
         a = a - 2
-    print(a)       
+          
     return a
-main(5)
+print(main(-5))
 
